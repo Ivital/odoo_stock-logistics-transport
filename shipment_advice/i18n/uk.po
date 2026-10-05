@@ -1002,3 +1002,81 @@ msgstr "Адреса складу"
 #: model:ir.model.fields,help:shipment_advice.field_shipment_advice__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__carrier_ids
+msgid ""
+"Concerned shipping method  for this shipment advice. It can be used to "
+"determine what are the eligible deliveries to load in the shipment when you "
+"don't have planned content (e.g. through the shopfloor application)."
+msgstr ""
+"Спосіб доставки, якого стосується ця рекомендація щодо відправлення. Його "
+"можна використовувати для визначення доставок, придатних для завантаження у "
+"відправлення, коли немає запланованого вмісту (наприклад, через застосунок "
+"shopfloor)."
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__line_to_load_ids
+msgid ""
+"Lines to load in priority.\n"
+"If the shipment is planned, it'll return the planned lines.\n"
+"If the shipment is not planned, it'll return lines from transfers partially loaded."
+msgstr ""
+"Рядки для пріоритетного завантаження.\n"
+"Якщо відправлення заплановано, буде повернуто заплановані рядки.\n"
+"Якщо відправлення не заплановано, буде повернуто рядки з частково завантажених передач."
+
+#. module: shipment_advice
+#: model:ir.model,name:shipment_advice.model_wizard_load_shipment
+msgid "Load shipment"
+msgstr "Завантажити відправлення"
+
+#. module: shipment_advice
+#: model:ir.model,name:shipment_advice.model_wizard_plan_shipment
+msgid "Plan shipment"
+msgstr "Запланувати відправлення"
+
+#. module: shipment_advice
+#: model:ir.model.constraint,message:shipment_advice.constraint_shipment_advice_name_uniq
+msgid "Reference must be unique per company!"
+msgstr "Посилання має бути унікальним для кожної компанії!"
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_stock_package_level__package_shipping_weight
+msgid "Total weight of the package."
+msgstr "Загальна вага пакунка."
+
+#. module: shipment_advice
+#: model:ir.model,name:shipment_advice.model_wizard_unload_shipment
+msgid "Unload shipment"
+msgstr "Розвантажити відправлення"
+
+#. module: shipment_advice
+#: model:ir.model,name:shipment_advice.model_wizard_unplan_shipment
+msgid "Unplan shipment"
+msgstr "Скасувати планування відправлення"
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__shipment_type
+msgid "Use incoming to plan receptions, use outgoing for deliveries."
+msgstr ""
+"Використовуйте вхідні операції для планування приймання, а вихідні — для "
+"доставок."
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__arrival_date
+msgid ""
+"When will the shipment arrive at the (un)loading dock. It is a planned date "
+"until in progress, then it represents the real one."
+msgstr ""
+"Коли відправлення прибуде до вантажно-розвантажувального доку. До початку "
+"обробки це запланована дата, потім — фактична."
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__departure_date
+msgid ""
+"When will the shipment leave the (un)loading dock. It is a planned date "
+"until in progress, then it represents the real one."
+msgstr ""
+"Коли відправлення залишить вантажно-розвантажувальний док. До початку "
+"обробки це запланована дата, потім — фактична."

@@ -53,3 +53,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:stock_depot.field_stock_depot__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: stock_depot
+#: model:ir.model,name:stock_depot.model_stock_depot
+msgid "Partner depot"
+msgstr "Депо партнера"

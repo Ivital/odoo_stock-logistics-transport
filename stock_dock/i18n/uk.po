@@ -93,3 +93,9 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,help:stock_dock.field_stock_dock__company_id
 msgid "The company is automatically set from your user preferences."
 msgstr "Компанія автоматично встановлюється з ваших налаштувань користувача."
+
+#. module: stock_dock
+#: model:ir.model,name:stock_dock.model_stock_dock
+msgid "Dock, used by trucks to load/unload goods"
+msgstr ""
+"Док, який використовують вантажівки для завантаження/розвантаження товарів"

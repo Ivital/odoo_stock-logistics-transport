@@ -2412,3 +2412,156 @@ msgid ""
 msgstr ""
 "[(Загальна дебіторська заборгованість/Загальний дохід) * кількість днів від "
 "першого рахунку] для цього клієнта"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_insurance__company_id
+msgid "Company related to this insurance"
+msgstr "Компанія, пов’язана з цим страхуванням"
+
+#. module: tms
+#: model:ir.model.constraint,message:tms.constraint_tms_crew_name_uniq
+msgid "Crew name already exists!"
+msgstr "Назва екіпажу вже існує!"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_stage__is_completed
+msgid "Defines how this stage is evaluated as completed stage"
+msgstr "Визначає, як цей етап оцінюється як завершений"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_stage__legend_priority
+msgid ""
+"Explanation text to help users using the star and priority mechanism on "
+"stages or orders that are in this stage."
+msgstr ""
+"Пояснювальний текст, що допомагає користувачам працювати з механізмом зірок "
+"і пріоритетів на етапах або замовленнях цього етапу."
+
+#. module: tms
+#: model:res.groups,name:tms.group_tms_crew
+msgid "Manage TMS Crew"
+msgstr "Керування екіпажем TMS"
+
+#. module: tms
+#: model:res.groups,name:tms.group_tms_driver_license
+msgid "Manage TMS Driver License"
+msgstr "Керування посвідченнями водіїв TMS"
+
+#. module: tms
+#: model:res.groups,name:tms.group_tms_uom
+msgid "Manage TMS Oum"
+msgstr "Керування TMS OUM"
+
+#. module: tms
+#: model:res.groups,name:tms.group_tms_route_stop
+msgid "Manage TMS Route Stops"
+msgstr "Керування зупинками маршруту TMS"
+
+#. module: tms
+#: model:res.groups,name:tms.group_tms_route
+msgid "Manage TMS Routes"
+msgstr "Керування маршрутами TMS"
+
+#. module: tms
+#: model:res.groups,name:tms.group_tms_team
+msgid "Manage TMS Teams"
+msgstr "Керування командами TMS"
+
+#. module: tms
+#: model:res.groups,name:tms.group_tms_vehicle_insurance
+msgid "Manage TMS Vehicle Insurance"
+msgstr "Керування страхуванням транспортних засобів TMS"
+
+#. module: tms
+#: model:ir.model,name:tms.model_tms_driver
+msgid "Model for TMS drivers"
+msgstr "Модель для водіїв TMS"
+
+#. module: tms
+#: model:ir.model,name:tms.model_tms_insurance
+msgid "Model for TMS insurances"
+msgstr "Модель для страхування TMS"
+
+#. module: tms
+#: model:ir.model.constraint,message:tms.constraint_tms_order_duration_ge_zero
+msgid "Scheduled duration must be greater than or equal to zero!"
+msgstr "Запланована тривалість має бути більшою або дорівнювати нулю!"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_order__scheduled_duration
+msgid "Scheduled duration of the work in hours"
+msgstr "Запланована тривалість робіт у годинах"
+
+#. module: tms
+#: model:uom.category,name:tms.uom_category_speed
+msgid "Speed"
+msgstr "Швидкість"
+
+#. module: tms
+#: model:ir.model.constraint,message:tms.constraint_tms_team_name_uniq
+msgid "Team name already exists!"
+msgstr "Назва команди вже існує!"
+
+#. module: tms
+#: model:ir.model.constraint,message:tms.constraint_tms_insurance_unique_policy_number_per_insurer
+msgid "The policy number must be unique for each insurer!"
+msgstr "Номер поліса має бути унікальним для кожного страховика!"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_stage__fold
+msgid ""
+"This stage is folded in the kanban view when there are no record in that "
+"stage to display."
+msgstr ""
+"Цей етап згортається в канбані, коли на ньому немає записів для "
+"відображення."
+
+#. module: tms
+#: model:ir.module.category,name:tms.tms
+msgid "Transport Management System"
+msgstr "Система керування транспортом"
+
+#. module: tms
+#: model:ir.model,name:tms.model_tms_crew
+msgid "Transport Management System Crew"
+msgstr "Екіпаж системи керування транспортом"
+
+#. module: tms
+#: model:ir.model,name:tms.model_tms_order
+msgid "Transport Management System Order"
+msgstr "Замовлення системи керування транспортом"
+
+#. module: tms
+#: model:ir.model,name:tms.model_tms_route
+msgid "Transport Management System Route"
+msgstr "Маршрут системи керування транспортом"
+
+#. module: tms
+#: model:ir.model,name:tms.model_tms_stage
+msgid "Transport Management System Stage"
+msgstr "Етап системи керування транспортом"
+
+#. module: tms
+#: model:ir.model,name:tms.model_tms_team
+msgid "Transport Management System Team"
+msgstr "Команда системи керування транспортом"
+
+#. module: tms
+#: model:ir.model.constraint,message:tms.constraint_tms_order_name_uniq
+msgid "Trip name already exists!"
+msgstr "Назва рейсу вже існує!"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_stage__custom_color
+msgid "Use Hex Code only Ex:-#FFFFFF"
+msgstr "Використовуйте лише HEX-код, напр.: #FFFFFF"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_stage__sequence
+msgid "Used to order stages. Lower is first."
+msgstr "Використовується для впорядкування етапів. Менше — раніше."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_team__sequence
+msgid "Used to sort teams. Lower is better."
+msgstr "Використовується для сортування команд. Менше — вище."
