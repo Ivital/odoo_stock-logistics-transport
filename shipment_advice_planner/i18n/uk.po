@@ -92,3 +92,27 @@ msgstr "Можна планувати в рекомендації відправ
 #: model:ir.model.fields,field_description:shipment_advice_planner.field_shipment_advice_planner__shipment_planning_method
 msgid "Shipment Planning Method"
 msgstr "Метод планування відправлення"
+
+#. module: shipment_advice_planner
+#. odoo-python
+#: code:addons/shipment_advice_planner/wizards/shipment_advice_planner.py:0
+msgid "The dock doesn't belong to the selected warehouse."
+msgstr "Док не належить до вибраного складу."
+
+#. module: shipment_advice_planner
+#. odoo-python
+#: code:addons/shipment_advice_planner/wizards/shipment_advice_planner.py:0
+msgid "The transfers don't belong to the selected warehouse."
+msgstr "Переміщення не належать до вибраного складу."
+
+#. module: shipment_advice_planner
+#. odoo-python
+#: code:addons/shipment_advice_planner/wizards/shipment_advice_planner.py:0
+msgid "The transfers selected must be ready and of the delivery type."
+msgstr "Вибрані переміщення мають бути готовими й типу доставки."
+
+#. module: shipment_advice_planner
+#. odoo-python
+#: code:addons/shipment_advice_planner/wizards/shipment_advice_planner.py:0
+msgid "There is no implementation for the planning method '%s'"
+msgstr "Для методу планування «%s» немає реалізації"

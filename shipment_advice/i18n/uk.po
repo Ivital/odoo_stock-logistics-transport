@@ -1080,3 +1080,401 @@ msgid ""
 msgstr ""
 "Коли відправлення залишить вантажно-розвантажувальний док. До початку "
 "обробки це запланована дата, потім — фактична."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/shipment_advice.py:0
+msgid "%(sa)s: %(pick)s background validation"
+msgstr "%(sa)s: фонова перевірка %(pick)s"
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/shipment_advice.py:0
+msgid ""
+"An error occurred while processing:\n"
+"- %(related_object_name)s: %(error)s"
+msgstr ""
+"Під час обробки сталася помилка:\n"
+"- %(related_object_name)s: %(error)s"
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/shipment_advice.py:0
+msgid "Arrival date should be set on the shipment advice %s."
+msgstr "Для рекомендації щодо відправлення %s потрібно вказати дату прибуття."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/shipment_advice.py:0
+msgid "Dock should be set on the shipment advice %s."
+msgstr "Для рекомендації щодо відправлення %s потрібно вказати док."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid ""
+"Lines to include have been updated, keeping only those qualified as "
+"delivery."
+msgstr ""
+"Рядки для включення оновлено, залишено лише ті, що відповідають доставці."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/plan_shipment.py:0
+msgid ""
+"Moves to include have been updated to match the selected shipment type."
+msgstr ""
+"Переміщення для включення оновлено відповідно до вибраного типу "
+"відправлення."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/plan_shipment.py:0
+msgid ""
+"Moves to include have been updated, keeping only those still in progress and"
+" related to a delivery/reception."
+msgstr ""
+"Переміщення для включення оновлено, залишено лише ті, що ще виконуються та "
+"пов’язані з доставкою/прийманням."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/unplan_shipment.py:0
+msgid ""
+"Moves to include have been updated, keeping only those still in progress and"
+" related to a shipment."
+msgstr ""
+"Переміщення для включення оновлено, залишено лише ті, що ще виконуються та "
+"пов’язані з відправленням."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/plan_shipment.py:0
+msgid "Moves updated"
+msgstr "Переміщення оновлено"
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/plan_shipment.py:0
+msgid ""
+"No move to plan among selected ones (already done, linked to other moves "
+"through a package, or not related to a delivery/reception)."
+msgstr ""
+"Серед вибраних немає переміщень для планування (вже виконано, пов’язано з "
+"іншими переміщеннями через пакування або не пов’язано з "
+"доставкою/прийманням)."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/unplan_shipment.py:0
+msgid ""
+"No move to unplan among selected ones (already done, linked to other moves "
+"through a package, or not related to a shipment)."
+msgstr ""
+"Серед вибраних немає переміщень для зняття з плану (вже виконано, пов’язано "
+"з іншими переміщеннями через пакування або не пов’язано з відправленням)."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid ""
+"No package to load among selected ones (already done or not qualified as "
+"delivery)."
+msgstr ""
+"Серед вибраних немає пакувань для завантаження (вже виконано або не "
+"відповідають доставці)."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid ""
+"No product to load among selected ones (already done or not qualified as "
+"delivery)."
+msgstr ""
+"Серед вибраних немає товарів для завантаження (вже виконано або не "
+"відповідають доставці)."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/unload_shipment.py:0
+msgid ""
+"No product to unload among selected ones (already done or not related to a "
+"shipment)."
+msgstr ""
+"Серед вибраних немає товарів для вивантаження (вже виконано або не пов’язані"
+" з відправленням)."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid ""
+"No transfer to load among selected ones (already done or not qualified as "
+"delivery)."
+msgstr ""
+"Серед вибраних немає переміщень для завантаження (вже виконано або не "
+"відповідають доставці)."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/plan_shipment.py:0
+msgid ""
+"No transfer to plan among selected ones (already done or not qualified as "
+"deliveries/receptions)."
+msgstr ""
+"Серед вибраних немає переміщень для планування (вже виконано або не "
+"відповідають доставкам/прийманням)."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/unload_shipment.py:0
+msgid ""
+"No transfer to unload among selected ones (already done or not related to a "
+"shipment)."
+msgstr ""
+"Серед вибраних немає переміщень для вивантаження (вже виконано або не "
+"пов’язані з відправленням)."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/unplan_shipment.py:0
+msgid ""
+"No transfer to unplan among selected ones (already done or not related to a "
+"shipment)."
+msgstr ""
+"Серед вибраних немає переміщень для зняття з плану (вже виконано або не "
+"пов’язані з відправленням)."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/stock_move_line.py:0
+msgid ""
+"Nothing to load for %(product)s.\n"
+"Picking: %(picking)s"
+msgstr ""
+"Нічого завантажувати для %(product)s.\n"
+"Переміщення: %(picking)s"
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid ""
+"Packages to include have been updated, keeping only those qualified as "
+"delivery."
+msgstr ""
+"Пакування для включення оновлено, залишено лише ті, що відповідають "
+"доставці."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid ""
+"Packages to load have been updated to match the selected shipment type."
+msgstr ""
+"Пакування для завантаження оновлено відповідно до вибраного типу "
+"відправлення."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid "Packages updated"
+msgstr "Пакунки оновлено"
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid "Please select at least one record to load in a shipment."
+msgstr "Виберіть щонайменше один запис для завантаження у відправлення."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/plan_shipment.py:0
+msgid "Please select at least one record to plan in a shipment."
+msgstr "Виберіть щонайменше один запис для планування у відправленні."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/unload_shipment.py:0
+msgid "Please select at least one record to unload from shipment."
+msgstr "Виберіть щонайменше один запис для вивантаження з відправлення."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/unplan_shipment.py:0
+msgid "Please select at least one record to unplan from shipment."
+msgstr "Виберіть щонайменше один запис для зняття з плану відправлення."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/unload_shipment.py:0
+msgid ""
+"Products to include have been updated, keeping only those still in progress "
+"and related to a shipment."
+msgstr ""
+"Товари для включення оновлено, залишено лише ті, що ще виконуються та "
+"пов’язані з відправленням."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid ""
+"Products to load have been updated to match the selected shipment type."
+msgstr ""
+"Товари для завантаження оновлено відповідно до вибраного типу відправлення."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid "Products updated"
+msgstr "Товари оновлено"
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/shipment_advice.py:0
+msgid "Shipment %s is not canceled, operation aborted."
+msgstr "Відправлення %s не скасовано, операцію перервано."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/shipment_advice.py:0
+msgid "Shipment %s is not confirmed, operation aborted."
+msgstr "Відправлення %s не підтверджено, операцію перервано."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/shipment_advice.py:0
+msgid "Shipment %s is not draft, operation aborted."
+msgstr "Відправлення %s не є чернеткою, операцію перервано."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/shipment_advice.py:0
+msgid "Shipment %s is not started, operation aborted."
+msgstr "Відправлення %s не розпочато, операцію скасовано."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/shipment_advice.py:0
+msgid ""
+"The following pickings failed to validate\n"
+"%s"
+msgstr ""
+"Не вдалося підтвердити такі переміщення\n"
+"%s"
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/stock_move_line.py:0
+msgid ""
+"This move is already loaded  in another shipment.\n"
+"Product: %(product)s.\n"
+"Picking: %(picking)s"
+msgstr ""
+"Це переміщення вже завантажено в інше відправлення.\n"
+"Товар: %(product)s.\n"
+"Переміщення: %(picking)s"
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/plan_shipment.py:0
+msgid ""
+"Transfers to include have been updated to match the selected shipment type."
+msgstr ""
+"Переміщення для включення оновлено відповідно до вибраного типу "
+"відправлення."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid ""
+"Transfers to include have been updated, keeping only those assigned and "
+"qualified as delivery."
+msgstr ""
+"Переміщення для включення оновлено, залишено лише призначені та ті, що "
+"відповідають доставці."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/plan_shipment.py:0
+msgid ""
+"Transfers to include have been updated, keeping only those still in progress"
+" and qualified as delivery/reception."
+msgstr ""
+"Переміщення для включення оновлено, залишено лише ті, що ще виконуються та "
+"відповідають доставці/прийманню."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/unload_shipment.py:0
+#: code:addons/shipment_advice/wizards/unplan_shipment.py:0
+msgid ""
+"Transfers to include have been updated, keeping only those still in progress"
+" and related to a shipment."
+msgstr ""
+"Переміщення для включення оновлено: залишено лише ті, що ще виконуються та "
+"пов’язані з відправленням."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid ""
+"Transfers to load have been updated to match the selected shipment type."
+msgstr ""
+"Переміщення для завантаження оновлено відповідно до вибраного типу "
+"відправлення."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+#: code:addons/shipment_advice/wizards/plan_shipment.py:0
+msgid "Transfers updated"
+msgstr "Переміщення оновлено"
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/wizards/load_shipment.py:0
+msgid ""
+"You cannot load move lines which are part of a package, unless you select "
+"all the move lines related to this package."
+msgstr ""
+"Не можна завантажувати рядки переміщення з пакування, якщо не вибрано всі "
+"рядки цього пакування."
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/stock_move_line.py:0
+msgid ""
+"You cannot load this into this shipment as it has been planned to be loaded "
+"in %s"
+msgstr ""
+"Не можна завантажити це в це відправлення, оскільки заплановано завантаження"
+" в %s"
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/stock_move_line.py:0
+msgid ""
+"You cannot load this into this shipment because its content is planned already.\n"
+"%(info)s"
+msgstr ""
+"Не можна завантажити це в це відправлення, оскільки його вміст уже заплановано.\n"
+"%(info)s"
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/stock_move_line.py:0
+msgid ""
+"You cannot load this move line alone, you have to move the whole package content.\n"
+"%(info)s"
+msgstr ""
+"Не можна завантажити лише цей рядок переміщення — потрібно перемістити весь вміст пакування.\n"
+"%(info)s"
+
+#. module: shipment_advice
+#. odoo-python
+#: code:addons/shipment_advice/models/stock_move_line.py:0
+msgid ""
+"You cannot unload this move line alone, you have to unload the whole package"
+" content."
+msgstr ""
+"Не можна вивантажити лише цей рядок переміщення — потрібно вивантажити весь "
+"вміст пакування."

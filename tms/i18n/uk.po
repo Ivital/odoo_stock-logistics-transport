@@ -2565,3 +2565,31 @@ msgstr "Використовується для впорядкування ет�
 #: model:ir.model.fields,help:tms.field_tms_team__sequence
 msgid "Used to sort teams. Lower is better."
 msgstr "Використовується для сортування команд. Менше — вище."
+
+#. module: tms
+#. odoo-python
+#: code:addons/tms/models/tms_stage.py:0
+msgid ""
+"Cannot create TMS Stage because it has the same Type and Sequence of an "
+"existing TMS Stage."
+msgstr ""
+"Не можна створити етап TMS, оскільки вже існує етап TMS з таким самим типом "
+"і послідовністю."
+
+#. module: tms
+#. odoo-python
+#: code:addons/tms/models/tms_stage.py:0
+msgid "Color code should be Hex Code. Ex:-#FFFFFF"
+msgstr "Код кольору має бути у форматі Hex. Напр.: #FFFFFF"
+
+#. module: tms
+#. odoo-python
+#: code:addons/tms/models/tms_stage.py:0
+msgid "You cannot delete default stages."
+msgstr "Не можна видаляти типові етапи."
+
+#. module: tms
+#. odoo-python
+#: code:addons/tms/models/tms_order.py:0
+msgid "You must create an TMS order stage first."
+msgstr "Спочатку потрібно створити етап замовлення TMS."
