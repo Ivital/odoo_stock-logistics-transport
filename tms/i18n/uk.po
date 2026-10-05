@@ -1737,3 +1737,678 @@ msgstr "напр., м"
 #: model:ir.model.fields,field_description:tms.field_tms_driver__invoice_edi_format
 msgid "eInvoice format"
 msgstr "Формат електронного рахунку"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.tms_crew_view_kanban
+msgid "<span class=\"badge badge-primary\">Crew</span>"
+msgstr "<span class=\"badge badge-primary\">Бригада</span>"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.tms_team_view_kanban
+msgid ""
+"<span class=\"fa fa-bus me-2\" aria-label=\"Vehicle\" title=\"Vehicles\"/>\n"
+"                                                <span>Vehicles: </span>"
+msgstr ""
+"<span class=\"fa fa-bus me-2\" aria-label=\"Транспортний засіб\" title=\"Транспортні засоби\"/>\n"
+"                                                <span>Транспортні засоби: </span>"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.tms_team_view_kanban
+msgid ""
+"<span class=\"fa fa-users me-2\" aria-label=\"Driver\" title=\"Drivers\"/>\n"
+"                                                <span>Drivers: </span>"
+msgstr ""
+"<span class=\"fa fa-users me-2\" aria-label=\"Водій\" title=\"Водії\"/>\n"
+"                                                <span>Водії: </span>"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.tms_order_view_form
+msgid "<span class=\"w-75\">Hours</span>"
+msgstr "<span class=\"w-75\">Години</span>"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.fleet_vehicle_inherit_view_form
+msgid ""
+"<span invisible=\"operation != 'passenger'\" class=\"w-50\">Passengers\n"
+"                                </span>"
+msgstr ""
+"<span invisible=\"operation != 'passenger'\" class=\"w-50\">Пасажири\n"
+"                                </span>"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.tms_order_view_kanban
+msgid "<span>Reporting</span>"
+msgstr "<span>Звітність</span>"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.tms_order_view_form
+msgid "Add a description for the order..."
+msgstr "Додайте опис замовлення..."
+
+#. module: tms
+#: model:res.groups,name:tms.group_tms_admin
+msgid "Administrator"
+msgstr "Адміністратор"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr ""
+"Усі електронні листи та документи, надіслані до цього контакту, будуть "
+"перекладені на цю мову."
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Allow the use of predefined routes in trips"
+msgstr "Дозволити використання визначених маршрутів у поїздках"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__autopost_bills
+msgid "Automatically post bills for this trusted partner"
+msgstr "Автоматично проводити рахунки для цього довіреного контрагента"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__receipt_reminder_email
+msgid ""
+"Automatically send a confirmation email to the vendor X days before the "
+"expected receipt date, asking him to confirm the exact date."
+msgstr ""
+"Автоматично надсилати постачальнику лист-підтвердження за X днів до "
+"очікуваної дати отримання з проханням підтвердити точну дату."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "Перевірте, чи контакт є компанією, інакше це людина"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Позначте цей бокс, якщо цей контакт є співробітником"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_crew__company_id
+#: model:ir.model.fields,help:tms.field_tms_order__company_id
+#: model:ir.model.fields,help:tms.field_tms_team__company_id
+msgid "Company related to this order"
+msgstr "Компанія, пов'язана з цим замовленням"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr "Лічильник кількості повернених електронних листів для цього контакту"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Create Trip Orders with Sale Orders"
+msgstr "Створювати маршрутні замовлення із замовлень на продаж"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Create vendor bills and customer invoices when completing trip orders."
+msgstr ""
+"Створювати рахунки постачальників і рахунки клієнтів після завершення "
+"рейсів."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__credit_limit
+msgid "Credit limit specific to this partner."
+msgstr "Кредитний ліміт, специфічний для цього контрагента."
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Days before expiration"
+msgstr "Днів до завершення строку"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Default Distance UoM"
+msgstr "Одиниця відстані за замовчуванням"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Default Length UoM"
+msgstr "Одиниця довжини за замовчуванням"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Default Speed UoM"
+msgstr "Одиниця швидкості за замовчуванням"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Default Weight UoM"
+msgstr "Одиниця ваги за замовчуванням"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_driver__distance_traveled_uom
+msgid "Distance Traveled Uom"
+msgstr "Одиниця пройденої відстані"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.view_tms_driver_form_inherit
+msgid "Driver Experience"
+msgstr "Досвід водія"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_order__driver_ids_domain
+msgid "Driver Ids Domain"
+msgstr "Домен ID водіїв"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_driver__driver_license_expiration_date
+msgid "Driver License Expiration Date"
+msgstr "Дата закінчення водійського посвідчення"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_driver__driver_license_file
+msgid "Driver License File"
+msgstr "Файл посвідчення водія"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_driver__driver_license_number
+msgid "Driver License Number"
+msgstr "Номер посвідчення водія"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_res_config_settings__driver_license_security_days
+msgid "Driver license security days"
+msgstr "Дні безпеки водійського посвідчення"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_driver__driving_experience_years
+msgid "Driving Experience Years"
+msgstr "Роки водійського стажу"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+"Або клієнт (не користувач), або спільний користувач. Вказаний поточний "
+"партнер - клієнт без доступу або з обмеженим доступом, створеним для обміну "
+"даними."
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Enable the creation of stops in a route"
+msgstr "Увімкнути створення зупинок у маршруті"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_route__estimated_time_uom
+msgid "Estimated Time Uom"
+msgstr "Одиниця орієнтовного часу"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__activity_type_icon
+#: model:ir.model.fields,help:tms.field_tms_order__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr "Формат адреси електронної пошти \"Назва <email@domain>\""
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__activity_exception_icon
+#: model:ir.model.fields,help:tms.field_tms_order__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__message_needaction
+#: model:ir.model.fields,help:tms.field_tms_order__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__message_has_error
+#: model:ir.model.fields,help:tms.field_tms_order__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__is_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+"Якщо адреса електронної пошти є в чорному списку, контакт більше не "
+"отримуватиме масових розсилок з жодного списку"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.view_tms_driver_form_inherit
+msgid "Licence Expiration Date"
+msgstr "Дата закінчення ліцензії"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_res_config_settings__group_tms_driver_license
+msgid "Manage Driver License"
+msgstr "Керувати посвідченням водія"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Manage Driver License Expiration"
+msgstr "Керувати строком дії водійського посвідчення"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Manage Driver License Expiration Date Before A Trip"
+msgstr "Керувати строком дії водійського посвідчення до поїздки"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_res_config_settings__group_tms_route_stop
+msgid "Manage Route Stops"
+msgstr "Керування зупинками маршруту"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Manage Trips Accounting"
+msgstr "Керувати обліком поїздок"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_res_config_settings__group_tms_vehicle_insurance
+msgid "Manage Vehicle Insurance"
+msgstr "Керувати страхуванням транспортних засобів"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Manage Vehicle Insurance Expiration"
+msgstr "Керувати закінченням строку страхування транспортного засобу"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Manage Vehicle Insurance Expiration Date Before A Trip"
+msgstr "Керувати строком дії страхування авто до поїздки"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Manage crews that share the same vehicle"
+msgstr "Керувати бригадами, що використовують один транспортний засіб"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Manage depreciations"
+msgstr "Керувати амортизаціями"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Manage expenses of a trip: hotel, tolls, fuel"
+msgstr "Керувати витратами поїздки: готелі, мито, пальне"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Manage pre-defined routes"
+msgstr "Керувати заздалегідь визначеними маршрутами"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Manage purchase requests for drivers and other suppliers"
+msgstr "Керувати запитами закупівлі для водіїв та інших постачальників"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Manage teams that share the same process/stages"
+msgstr "Керувати командами зі спільним процесом/етапами"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_res_config_settings__module_tms_expense
+msgid "Manage trip expenses"
+msgstr "Керувати витратами поїздок"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_res_config_settings__module_tms_account
+msgid "Manage trip invoicing"
+msgstr "Керувати рахунками поїздок"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_res_config_settings__module_tms_purchase
+msgid "Manage trip purchases"
+msgstr "Керувати закупівлями поїздок"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_res_config_settings__module_tms_sale
+msgid "Manage trip sales"
+msgstr "Керування продажами поїздки"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_res_config_settings__module_tms_account_asset
+msgid "Manage vehicle as accounting assets"
+msgstr "Обліковувати транспортні засоби як бухгалтерські активи"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Manage vehicles as accounting assets"
+msgstr "Обліковувати транспортні засоби як бухгалтерські активи"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__reminder_date_before_receipt
+msgid "Number of days to send reminder email before the promised receipt date"
+msgstr ""
+"Кількість днів до обіцяної дати отримання для надсилання листа-нагадування"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__message_needaction_counter
+#: model:ir.model.fields,help:tms.field_tms_order__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__message_has_error_counter
+#: model:ir.model.fields,help:tms.field_tms_order__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__on_time_rate
+msgid ""
+"Over the past x days; the number of products received on time divided by the"
+" number of ordered products.x is either the System Parameter "
+"purchase_stock.on_time_delivery_days or the default 365"
+msgstr ""
+"За останні x днів: кількість товарів, отриманих вчасно, поділена на "
+"кількість замовлених товарів. x — це або системний параметр "
+"purchase_stock.on_time_delivery_days, або типове значення 365."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__property_outbound_payment_method_line_id
+msgid ""
+"Preferred payment method when buying from this vendor. This will be set by "
+"default on all outgoing payments created for this vendor"
+msgstr ""
+"Бажаний спосіб оплати під час закупівлі в цього постачальника. Він буде "
+"типовим для всіх вихідних платежів, створених для цього постачальника"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__property_inbound_payment_method_line_id
+msgid ""
+"Preferred payment method when selling to this customer. This will be set by "
+"default on all incoming payments created for this customer"
+msgstr ""
+"Бажаний спосіб оплати під час продажу цьому клієнту. Він буде типовим для "
+"всіх вхідних платежів, створених для цього клієнта"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_stage__legend_priority
+msgid "Priority Management Explanation"
+msgstr "Пояснення керування пріоритетами"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_order__route_destination
+msgid "Route destination"
+msgstr "Призначення маршруту"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_order__diff_duration
+msgid "Scheduled Duration - Actual Duration"
+msgstr "Запланована тривалість — фактична тривалість"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__invoice_warn
+#: model:ir.model.fields,help:tms.field_tms_driver__picking_warn
+#: model:ir.model.fields,help:tms.field_tms_driver__purchase_warn
+#: model:ir.model.fields,help:tms.field_tms_driver__sale_warn
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"block the flow. The Message has to be written in the next field."
+msgstr ""
+"Вибір опції «Попередження» повідомить користувача цим повідомленням; вибір "
+"«Блокувальне повідомлення» спричинить виняток із цим повідомленням і "
+"заблокує процес. Текст повідомлення потрібно вказати в наступному полі."
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid "Sell trips or tickets"
+msgstr "Продавати поїздки або квитки"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__use_partner_credit_limit
+msgid "Set a value greater than 0.0 to activate a credit limit check"
+msgstr ""
+"Установіть значення більше 0,0, щоб активувати перевірку кредитного ліміту"
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid ""
+"Set the number of days before the expiration date of the driver license to show a\n"
+"                                warning."
+msgstr ""
+"Установіть кількість днів до закінчення строку дії водійського посвідчення для показу\n"
+"                                попередження."
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.res_config_settings_view_form
+msgid ""
+"Set the number of days before the expiration date of the vehicle insurance to show a\n"
+"                                warning."
+msgstr ""
+"Установіть кількість днів до закінчення строку дії страхування транспортного засобу для показу\n"
+"                                попередження."
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.tms_stage_form_view
+msgid "Stage Description"
+msgstr "Опис етапу"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__activity_state
+#: model:ir.model.fields,help:tms.field_tms_order__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_route__stop_locations
+msgid "Stops locations in route"
+msgstr "Місця зупинок у маршруті"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"Код країни ISO у двох символах.\n"
+"Ви можете використовувати це поле для швидкого пошуку."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__vat
+msgid ""
+"The Tax Identification Number. Values here will be validated based on the "
+"country format. You can use '/' to indicate that the partner is not subject "
+"to tax."
+msgstr ""
+"Ідентифікаційний податковий номер. Значення тут буде перевірено на основі "
+"формату країни. Ви можете використовувати '/', щоб вказати, що партнер не "
+"платить податок."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__property_account_position_id
+msgid ""
+"The fiscal position determines the taxes/accounts used for this contact."
+msgstr ""
+"Податкова позиція визначає податки/рахунки, що використовуються для цього "
+"контакту."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__user_id
+msgid "The internal user in charge of this contact."
+msgstr "Внутрішній користувач, який відповідає за цей контакт."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__company_registry
+msgid ""
+"The registry number of the company. Use it if it is different from the Tax "
+"ID. It must be unique across all partners of a same country"
+msgstr ""
+"Реєстраційний номер компанії. Використовуйте його, якщо він відрізняється "
+"від ID податку. Він має бути унікальним для всіх партнерів однієї країни"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__property_stock_customer
+msgid ""
+"The stock location used as destination when sending goods to this contact."
+msgstr ""
+"Складське місце, що використовується як призначення під час відправлення "
+"товарів цьому контакту."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__property_stock_supplier
+msgid ""
+"The stock location used as source when receiving goods from this contact."
+msgstr ""
+"Складське місце, що використовується як джерело під час отримання товарів "
+"від цього контакту."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__property_account_payable_id
+msgid ""
+"This account will be used instead of the default one as the payable account "
+"for the current partner"
+msgstr ""
+"Цей рахунок використовуватиметься замість типового як рахунок кредиторської "
+"заборгованості для поточного контрагента"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__property_account_receivable_id
+msgid ""
+"This account will be used instead of the default one as the receivable "
+"account for the current partner"
+msgstr ""
+"Цей рахунок використовуватиметься замість типового як рахунок дебіторської "
+"заборгованості для поточного контрагента"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__property_purchase_currency_id
+msgid ""
+"This currency will be used, instead of the default one, for purchases from "
+"the current partner"
+msgstr ""
+"Ця валюта використовуватиметься замість типової для закупівель у поточного "
+"контрагента"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr ""
+"Це поле використовується для пошуку за адресою електронної пошти, оскільки "
+"основне поле електронної пошти може містити не лише адресу електронної "
+"пошти."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__property_supplier_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for purchase "
+"orders and vendor bills"
+msgstr ""
+"Цей строк оплати використовуватиметься замість типового для замовлень на "
+"закупівлю та рахунків постачальника"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__property_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for sales orders "
+"and customer invoices"
+msgstr ""
+"Цей строк оплати використовуватиметься замість типового для замовлень на "
+"продаж і рахунків клієнта"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr ""
+"Цей прайс-лист використовуватиметься замість типового для продажів поточному"
+" контрагенту"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_res_config_settings__tms_distance_uom
+msgid "Tms Distance Uom"
+msgstr "Одиниця виміру відстані TMS"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__credit
+msgid "Total amount this customer owes you."
+msgstr "Загальна сума, яку цей клієнт вам винен."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__debit
+msgid "Total amount you have to pay to this vendor."
+msgstr "Загальна сума, яку ви маєте сплатити цьому постачальнику."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__activity_exception_decoration
+#: model:ir.model.fields,help:tms.field_tms_order__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__barcode
+msgid "Use a barcode to identify this contact."
+msgstr "Використовуйте штрих-код для ідентифікації цього контакту."
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_order__route
+msgid "Use predefined route"
+msgstr "Використовувати визначений маршрут"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_tms_order__vehicle_ids_domain
+msgid "Vehicle Ids Domain"
+msgstr "Домен ID транспортних засобів"
+
+#. module: tms
+#: model:ir.model.fields,field_description:tms.field_res_config_settings__vehicle_insurance_security_days
+msgid "Vehicle Insurance security days"
+msgstr "Дні безпеки страхування транспортного засобу"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__website_message_ids
+#: model:ir.model.fields,help:tms.field_tms_order__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+"Під час друку документів та експорту/імпорту даних, значення часу вираховується відносно часового поясу.\n"
+"Якщо часовий пояс не встановлено, використовується UTC (Узгоджений світовий час).\n"
+"У будь-якому іншому випадку значення часу обчислюються відповідно до зсуву часу вашого веб-клієнта."
+
+#. module: tms
+#: model_terms:ir.ui.view,arch_db:tms.tms_stage_form_view
+msgid ""
+"You can add a description to help your coworkers\n"
+"                            understand the meaning and purpose of the stage."
+msgstr ""
+"Можна додати опис, щоб допомогти колегам\n"
+"                            зрозуміти значення та призначення етапу."
+
+#. module: tms
+#: model:ir.model.fields,help:tms.field_tms_driver__days_sales_outstanding
+msgid ""
+"[(Total Receivable/Total Revenue) * number of days since the first invoice] "
+"for this customer"
+msgstr ""
+"[(Загальна дебіторська заборгованість/Загальний дохід) * кількість днів від "
+"першого рахунку] для цього клієнта"

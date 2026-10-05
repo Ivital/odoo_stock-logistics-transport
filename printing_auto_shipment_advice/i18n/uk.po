@@ -37,3 +37,8 @@ msgid ""
 msgstr ""
 "Не вдалося надрукувати документи: сервер CUPS може бути недоступним або "
 "принтери налаштовано неправильно. Помилка:"
+
+#. module: printing_auto_shipment_advice
+#: model_terms:ir.ui.view,arch_db:printing_auto_shipment_advice.view_warehouse_form_inherit
+msgid "Shipment Advice - Auto Printing Configuration"
+msgstr "Рекомендація відправлення — конфігурація автодруку"

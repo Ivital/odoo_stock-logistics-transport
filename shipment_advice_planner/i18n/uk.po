@@ -82,3 +82,13 @@ msgstr "Рекомендація щодо відвантаження"
 #: model:ir.model.fields.selection,name:shipment_advice_planner.selection__shipment_advice_planner__shipment_planning_method__simple
 msgid "Simple"
 msgstr "Простий"
+
+#. module: shipment_advice_planner
+#: model:ir.model.fields,field_description:shipment_advice_planner.field_stock_picking__can_be_planned_in_shipment_advice
+msgid "Can Be Planned In Shipment Advice"
+msgstr "Можна планувати в рекомендації відправлення"
+
+#. module: shipment_advice_planner
+#: model:ir.model.fields,field_description:shipment_advice_planner.field_shipment_advice_planner__shipment_planning_method
+msgid "Shipment Planning Method"
+msgstr "Метод планування відправлення"

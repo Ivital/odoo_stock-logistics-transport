@@ -608,3 +608,397 @@ msgstr "Повідомлення вебсайту"
 #: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_weight_progress
 msgid "Weight/total"
 msgstr "Вага/загалом"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "<span class=\"o_horizontal_separator\">Bulk content</span>"
+msgstr "<span class=\"o_horizontal_separator\">Масовий вміст</span>"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "<span class=\"o_horizontal_separator\">Package content</span>"
+msgstr "<span class=\"o_horizontal_separator\">Вміст пакунка</span>"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
+msgid "<strong>Bulk content</strong>"
+msgstr "<strong>Масовий вміст</strong>"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
+msgid "<strong>Package content</strong>"
+msgstr "<strong>Вміст пакунка</strong>"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.res_config_settings_view_form
+msgid "Auto-close Incoming Shipments"
+msgstr "Автоматично закривати вхідні відправлення"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.res_config_settings_view_form
+msgid ""
+"Automatically close incoming shipment advice when all moves are completed"
+msgstr ""
+"Автоматично закривати вхідне повідомлення про відвантаження після завершення"
+" всіх переміщень"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.res_config_settings_view_form
+msgid "Backorder Policy for Outgoing Shipments"
+msgstr "Політика дозамовлення для вихідних відправлень"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_move_lines_count
+msgid "Bulk lines loaded"
+msgstr "Масові рядки завантажено"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_move_lines_progress
+msgid "Bulk lines loaded/total"
+msgstr "Завантажено рядків/усього"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_move_lines_progress_f
+msgid "Bulk lines loaded/total %"
+msgstr "Завантажено рядків/усього %"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.res_config_settings_view_form
+msgid ""
+"Configure how outgoing shipment advice handles backorders for deliveries"
+msgstr ""
+"Налаштувати обробку недопоставок у вихідних повідомленнях про відвантаження"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__ref
+msgid "Consignment/Truck Ref."
+msgstr "Посилання на вантаж/вантажівку"
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.res_config_settings_view_form
+msgid ""
+"If you want that closing an outgoing shipment advice marks as\n"
+"                            done all related deliveries and create backorder in case of\n"
+"                            partial choose 'Create backorder'.\n"
+"                            If you want to mark deliveries as done only when they are all\n"
+"                            loaded in a shipment advice choose 'Leave open'. This last option\n"
+"                            is useful when your deliveries will be shipped by several trucks."
+msgstr ""
+"Якщо ви хочете, щоб закриття вихідної рекомендації щодо відправлення позначало\n"
+"                            всі пов'язані доставки як виконані та створювало дозамовлення в разі\n"
+"                            часткового виконання, виберіть «Створити дозамовлення».\n"
+"                            Якщо потрібно позначати доставки виконаними лише тоді, коли всі вони\n"
+"                            завантажені в рекомендацію щодо відправлення, виберіть «Залишити відкритими». Остання опція\n"
+"                            корисна, коли доставки відправлятимуться кількома вантажівками."
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_res_company__shipment_advice_outgoing_backorder_policy
+#: model:ir.model.fields,help:shipment_advice.field_res_config_settings__shipment_advice_outgoing_backorder_policy
+msgid ""
+"If you want that closing an outgoing shipment advice marks as done all related deliveries and creates backorder in case of partial choose 'Create backorder'.\n"
+"If you want to mark deliveries as done only when they are all loaded in a shipment advice choose 'Leave open'. This last option is useful when your deliveries will be shipped by several trucks."
+msgstr ""
+"Якщо ви хочете, щоб закриття вихідної рекомендації щодо відправлення позначало всі пов'язані доставки як виконані та створювало дозамовлення в разі часткового виконання, виберіть «Створити дозамовлення».\n"
+"Якщо потрібно позначати доставки виконаними лише тоді, коли всі вони завантажені в рекомендацію щодо відправлення, виберіть «Залишити відкритими». Остання опція корисна, коли доставки відправлятимуться кількома вантажівками."
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__is_fully_loaded_in_shipment
+msgid "Is fully loaded in a shipment?"
+msgstr "Повністю завантажено у відправлення?"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__is_partially_loaded_in_shipment
+msgid "Is partially loaded in a shipment?"
+msgstr "Частково завантажено у відправлення?"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__lines_to_load_count
+msgid "Lines To Load Count"
+msgstr "Кількість рядків для завантаження"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.wizard_load_shipment_form
+msgid "Load in Shipment Advice"
+msgstr "Завантажити в рекомендацію відправлення"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__loaded_move_lines_without_package_count
+msgid "Loaded Move Lines Without Package Count"
+msgstr "Кількість завантажених рядків переміщення без пакунка"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__loaded_packages_count
+msgid "Loaded Packages Count"
+msgstr "Кількість завантажених пакунків"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__loaded_pickings_count
+msgid "Loaded Pickings Count"
+msgstr "Кількість завантажених комплектувань"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__loaded_move_line_ids
+msgid "Loaded content list"
+msgstr "Список завантаженого вмісту"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__loaded_move_line_without_package_ids
+msgid "Loaded content list (w/o packages)"
+msgstr "Список завантаженого вмісту (без пакунків)"
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_package_level__package_shipping_weight_uom_name
+msgid "Package Shipping Weight Uom Name"
+msgstr "Назва од. виміру ваги пакунка"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_packages_progress
+msgid "Packages loaded/total"
+msgstr "Пакунки завантажено/усього"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_packages_progress_f
+msgid "Packages loaded/total %"
+msgstr "Завантажено пакунків/усього %"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_load_shipment__package_level_ids
+msgid "Packages to load"
+msgstr "Пакунки для завантаження"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.wizard_plan_shipment_form
+msgid "Plan in Shipment Advice"
+msgstr "Планувати в рекомендації відправлення"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__planned_moves_count
+msgid "Planned Moves Count"
+msgstr "Кількість запланованих рухів"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__planned_pickings_count
+msgid "Planned Pickings Count"
+msgstr "Кількість запланованих переміщень"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.view_picking_internal_search
+msgid "Planned Shipment Advice"
+msgstr "Запланована рекомендація відправлення"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__planned_move_ids
+msgid "Planned content list"
+msgstr "Список запланованого вмісту"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__planned_picking_ids
+msgid "Planned transfers"
+msgstr "Заплановані переміщення"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.res_config_settings_view_form
+msgid ""
+"Process shipment advice validation through queued jobs to handle large "
+"shipments"
+msgstr ""
+"Обробляти підтвердження повідомлення про відвантаження через чергу завдань "
+"для великих відвантажень"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_load_shipment__move_line_ids
+msgid "Products to load"
+msgstr "Товари для завантаження"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_unload_shipment__move_line_ids
+msgid "Products to unload"
+msgstr "Товари для вивантаження"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__run_in_queue_job
+msgid "Run In Queue Job"
+msgstr "Запустити в завданні черги"
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__company_id
+msgid "The company is automatically set from your user preferences."
+msgstr "Компанія автоматично встановлюється з ваших налаштувань користувача."
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.res_config_settings_view_form
+msgid ""
+"This flag indicates if an incoming shipment advice\n"
+"                            will be automatically set to done\n"
+"                            if all related moves are done or canceled"
+msgstr ""
+"Цей прапорець визначає, чи буде вхідне повідомлення про відвантаження\n"
+"                            автоматично позначено як завершене,\n"
+"                            якщо всі пов’язані переміщення завершені або скасовані"
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_res_company__shipment_advice_auto_close_incoming
+#: model:ir.model.fields,help:shipment_advice.field_res_config_settings__shipment_advice_auto_close_incoming
+msgid ""
+"This flag indicates if an incoming shipment advice will be automatically set"
+" to done if all related moves are done or canceled"
+msgstr ""
+"Цей прапорець вказує, чи вхідна рекомендація щодо відправлення буде "
+"автоматично позначена як виконана, якщо всі пов'язані переміщення виконані "
+"або скасовані"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.view_picking_internal_search
+msgid "To plan in Shipment Advice"
+msgstr "Для планування в рекомендації відправлення"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.res_config_settings_view_form
+msgid ""
+"To prevent timeouts for large shipments, enable this option to execute\n"
+"                            shipment advice validation through a queued job. Each picking will be\n"
+"                            validated in a separate jobs."
+msgstr ""
+"Щоб уникнути тайм-аутів для великих відправлень, увімкніть цю опцію для виконання\n"
+"                            перевірки рекомендації щодо відправлення через завдання в черзі. Кожне переміщення буде\n"
+"                            перевірятися в окремому завданні."
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_res_company__shipment_advice_run_in_queue_job
+#: model:ir.model.fields,help:shipment_advice.field_res_config_settings__shipment_advice_run_in_queue_job
+msgid ""
+"To prevent timeouts for large shipments, enable this option to execute "
+"shipment advice validation through a queued jobs. Each picking will be "
+"validated in a separate job."
+msgstr ""
+"Щоб уникнути тайм-аутів для великих відправлень, увімкніть цю опцію для "
+"перевірки рекомендації щодо відправлення через завдання в черзі. Кожне "
+"переміщення перевірятиметься в окремому завданні."
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__total_move_lines_count
+msgid "Total bulk lines"
+msgstr "Усього масових рядків"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_load_shipment__picking_ids
+msgid "Transfers to load"
+msgstr "Переміщення для завантаження"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_plan_shipment__picking_ids
+msgid "Transfers to plan"
+msgstr "Переміщення для планування"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_unload_shipment__picking_ids
+msgid "Transfers to unload"
+msgstr "Переміщення для вивантаження"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_unplan_shipment__picking_ids
+msgid "Transfers to unplan"
+msgstr "Переміщення для зняття з плану"
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.wizard_unload_shipment_form
+msgid "Unload from Shipment Advice"
+msgstr "Вивантажити з рекомендації відправлення"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.view_picking_form
+msgid "Unload from shipment"
+msgstr "Вивантажити з відправлення"
+
+#. module: shipment_advice
+#: model:ir.actions.act_window,name:shipment_advice.wizard_unload_shipment_picking_action
+msgid "Unload in shipment"
+msgstr "Вивантажити у відправленні"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "Unloading Progress"
+msgstr "Прогрес вивантаження"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.wizard_unplan_shipment_form
+msgid "Unplan from Shipment Advice"
+msgstr "Зняти планування з рекомендації відправлення"
+
+#. module: shipment_advice
+#: model:ir.actions.act_window,name:shipment_advice.wizard_unplan_shipment_move_action
+msgid "Unplan from shipment"
+msgstr "Зняти з плану відправлення"
+
+#. module: shipment_advice
+#: model:ir.actions.act_window,name:shipment_advice.wizard_unplan_shipment_picking_action
+msgid "Unplan in shipment"
+msgstr "Зняти з плану у відправленні"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.res_config_settings_view_form
+msgid "Use Queue Jobs for Shipment Advice"
+msgstr "Використовувати завдання черги для рекомендації відправлення"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_waiting_quantity
+msgid "Waiting Quantity"
+msgstr "Кількість в очікуванні"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
+msgid "Warehouse address"
+msgstr "Адреса складу"
+
+#. module: shipment_advice
+#: model:ir.model.fields,help:shipment_advice.field_shipment_advice__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

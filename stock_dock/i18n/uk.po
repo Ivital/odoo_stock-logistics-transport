@@ -88,3 +88,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:stock_dock.field_stock_dock__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: stock_dock
+#: model:ir.model.fields,help:stock_dock.field_stock_dock__company_id
+msgid "The company is automatically set from your user preferences."
+msgstr "Компанія автоматично встановлюється з ваших налаштувань користувача."
