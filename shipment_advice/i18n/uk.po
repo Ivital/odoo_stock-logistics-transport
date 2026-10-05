@@ -205,3 +205,406 @@ msgstr "Попередження"
 #: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
 msgid "Weight"
 msgstr "Вага"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Оформлення винятку дії"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__activity_state
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Піктограма типу дії"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__arrival_date
+msgid "Arrival Date"
+msgstr "Дата прибуття"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
+msgid "Arrival date"
+msgstr "Дата прибуття"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "Back to draft"
+msgstr "Повернути в чернетку"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+#: model_terms:ir.ui.view,arch_db:shipment_advice.wizard_load_shipment_form
+#: model_terms:ir.ui.view,arch_db:shipment_advice.wizard_plan_shipment_form
+#: model_terms:ir.ui.view,arch_db:shipment_advice.wizard_unload_shipment_form
+#: model_terms:ir.ui.view,arch_db:shipment_advice.wizard_unplan_shipment_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: shipment_advice
+#: model:ir.model.fields.selection,name:shipment_advice.selection__res_company__shipment_advice_outgoing_backorder_policy__create_backorder
+msgid "Create backorder"
+msgstr "Створити дозамовлення"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
+msgid "Delivery Addr."
+msgstr "Адреса доставки"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
+msgid "Delivery date"
+msgstr "Дата доставки"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__departure_date
+msgid "Departure Date"
+msgstr "Дата відправлення"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
+msgid "Departure date"
+msgstr "Дата відправлення"
+
+#. module: shipment_advice
+#: model:ir.model.fields.selection,name:shipment_advice.selection__shipment_advice__state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
+msgid "Driver signature"
+msgstr "Підпис водія"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__error_message
+msgid "Error Message"
+msgstr "Повідомлення про помилку"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: shipment_advice
+#: model:ir.model.fields.selection,name:shipment_advice.selection__shipment_advice__state__in_process
+msgid "In process"
+msgstr "У процесі"
+
+#. module: shipment_advice
+#: model:ir.model.fields.selection,name:shipment_advice.selection__shipment_advice__shipment_type__incoming
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_search
+msgid "Incoming"
+msgstr "Вхідний"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "Lading"
+msgstr "Коносамент"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__write_uid
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_load_shipment__write_uid
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_plan_shipment__write_uid
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_unload_shipment__write_uid
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_unplan_shipment__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__write_date
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_load_shipment__write_date
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_plan_shipment__write_date
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_unload_shipment__write_date
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_unplan_shipment__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: shipment_advice
+#: model:ir.model.fields.selection,name:shipment_advice.selection__res_company__shipment_advice_outgoing_backorder_policy__leave_open
+msgid "Leave open"
+msgstr "Залишити відкритим"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__line_to_load_ids
+msgid "Line To Load"
+msgstr "Рядок для завантаження"
+
+#. module: shipment_advice
+#: model:ir.actions.act_window,name:shipment_advice.wizard_load_shipment_picking_action
+#: model_terms:ir.ui.view,arch_db:shipment_advice.package_level_tree_view_picking
+#: model_terms:ir.ui.view,arch_db:shipment_advice.view_picking_form
+#: model_terms:ir.ui.view,arch_db:shipment_advice.view_stock_move_line_detailed_operation_tree
+msgid "Load in shipment"
+msgstr "Завантажити у відвантаження"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "Loaded"
+msgstr "Завантажено"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_shipment_advice_ids
+#: model_terms:ir.ui.view,arch_db:shipment_advice.view_picking_internal_search
+msgid "Loaded Shipment Advice"
+msgstr "Завантажена рекомендація щодо відвантаження"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_weight
+msgid "Loaded Weight"
+msgstr "Завантажена вага"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "Loaded bulk"
+msgstr "Завантажена партія"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "Loaded packages"
+msgstr "Завантажені пакунки"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__loaded_picking_ids
+msgid "Loaded transfers"
+msgstr "Завантажені переміщення"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_progress
+msgid "Loaded/total"
+msgstr "Завантажено/всього"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_progress_f
+msgid "Loaded/total %"
+msgstr "Завантажено/усього %"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "Loading Progress"
+msgstr "Прогрес завантаження"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "Mark as done"
+msgstr "Позначити як виконане"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_plan_shipment__move_ids
+msgid "Moves to plan"
+msgstr "Переміщення для планування"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_unplan_shipment__move_ids
+msgid "Moves to unplan"
+msgstr "Переміщення для зняття з плану"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
+msgid "Nb. of packages"
+msgstr "Кількість пакунків"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__activity_summary
+msgid "Next Activity Summary"
+msgstr "Підсумок наступної дії"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__activity_type_id
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_load_shipment__open_shipment
+msgid "Open Shipment"
+msgstr "Відкрити відвантаження"
+
+#. module: shipment_advice
+#: model:ir.model.fields.selection,name:shipment_advice.selection__shipment_advice__shipment_type__outgoing
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_search
+msgid "Outgoing"
+msgstr "Вихідний"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__loaded_package_level_ids
+msgid "Package Levels"
+msgstr "Рівні пакунків"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_packages_count
+msgid "Packages loaded"
+msgstr "Пакунки завантажено"
+
+#. module: shipment_advice
+#: model:ir.actions.act_window,name:shipment_advice.wizard_plan_shipment_move_action
+#: model:ir.actions.act_window,name:shipment_advice.wizard_plan_shipment_picking_action
+#: model_terms:ir.ui.view,arch_db:shipment_advice.view_picking_form
+msgid "Plan in shipment"
+msgstr "Запланувати у відвантаженні"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "Planned"
+msgstr "Заплановано"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "Planned bulk"
+msgstr "Запланована партія"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_move__shipment_advice_id
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__planned_shipment_advice_id
+msgid "Planned shipment"
+msgstr "Заплановане відвантаження"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__carrier_ids
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "Related shipping methods"
+msgstr "Пов'язані способи доставки"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__activity_user_id
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_res_company__shipment_advice_run_in_queue_job
+#: model:ir.model.fields,field_description:shipment_advice.field_res_config_settings__shipment_advice_run_in_queue_job
+msgid "Run shipment advice in queue job"
+msgstr "Запускати рекомендацію щодо відвантаження у фоновому завданні"
+
+#. module: shipment_advice
+#: model:ir.actions.report,name:shipment_advice.action_report_shipment_advice
+#: model:ir.model,name:shipment_advice.model_shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_load_shipment__shipment_advice_id
+#: model:ir.model.fields,field_description:shipment_advice.field_wizard_plan_shipment__shipment_advice_id
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+#: model_terms:ir.ui.view,arch_db:shipment_advice.stock_move_line_view_search
+#: model_terms:ir.ui.view,arch_db:shipment_advice.view_move_search
+msgid "Shipment Advice"
+msgstr "Рекомендація щодо відвантаження"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_res_company__shipment_advice_auto_close_incoming
+#: model:ir.model.fields,field_description:shipment_advice.field_res_config_settings__shipment_advice_auto_close_incoming
+msgid "Shipment Advice: Auto Close Incoming Advices"
+msgstr ""
+"Рекомендація щодо відвантаження: автоматично закривати вхідні рекомендації"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_res_company__shipment_advice_outgoing_backorder_policy
+#: model:ir.model.fields,field_description:shipment_advice.field_res_config_settings__shipment_advice_outgoing_backorder_policy
+msgid "Shipment Advice: Outgoing backorder policy"
+msgstr "Рекомендація щодо відвантаження: політика вихідних дозамовлень"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_move_line__shipment_advice_id
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_package_level__shipment_advice_id
+#: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
+msgid "Shipment advice"
+msgstr "Рекомендація щодо відвантаження"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_package_level__package_shipping_weight
+msgid "Shipping Weight"
+msgstr "Вага відвантаження"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_search
+msgid "This Week"
+msgstr "Цього тижня"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_form
+msgid "To load"
+msgstr "До завантаження"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.shipment_advice_view_search
+msgid "Today"
+msgstr "Сьогодні"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__total_load
+#: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
+msgid "Total load (kg)"
+msgstr "Загальне навантаження (кг)"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__total_packages_count
+msgid "Total packages"
+msgstr "Усього пакунків"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.report_shipment_advice_document
+msgid "Truck ref."
+msgstr "Посилання на вантажівку"
+
+#. module: shipment_advice
+#: model_terms:ir.ui.view,arch_db:shipment_advice.wizard_load_shipment_form
+#: model_terms:ir.ui.view,arch_db:shipment_advice.wizard_plan_shipment_form
+#: model_terms:ir.ui.view,arch_db:shipment_advice.wizard_unload_shipment_form
+#: model_terms:ir.ui.view,arch_db:shipment_advice.wizard_unplan_shipment_form
+msgid "Validate"
+msgstr "Підтвердити"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_shipment_advice__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"
+
+#. module: shipment_advice
+#: model:ir.model.fields,field_description:shipment_advice.field_stock_picking__loaded_weight_progress
+msgid "Weight/total"
+msgstr "Вага/загалом"

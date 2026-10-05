@@ -45,3 +45,40 @@ msgstr "Планувальник повідомлень про відванта�
 #: model:ir.model.fields,field_description:shipment_advice_planner.field_shipment_advice_planner__warehouse_id
 msgid "Warehouse"
 msgstr "Склад"
+
+#. module: shipment_advice_planner
+#: model_terms:ir.ui.view,arch_db:shipment_advice_planner.shipment_advice_planner_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: shipment_advice_planner
+#: model:ir.model.fields,field_description:shipment_advice_planner.field_shipment_advice_planner__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: shipment_advice_planner
+#: model:ir.model.fields,field_description:shipment_advice_planner.field_shipment_advice_planner__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: shipment_advice_planner
+#: model:ir.model.fields,field_description:shipment_advice_planner.field_shipment_advice_planner__picking_to_plan_ids
+#: model_terms:ir.ui.view,arch_db:shipment_advice_planner.shipment_advice_planner_form_view
+msgid "Pickings to plan"
+msgstr "Комплектування для планування"
+
+#. module: shipment_advice_planner
+#: model_terms:ir.ui.view,arch_db:shipment_advice_planner.shipment_advice_planner_form_view
+msgid "Plan Shipments"
+msgstr "Планувати відвантаження"
+
+#. module: shipment_advice_planner
+#. odoo-python
+#: code:addons/shipment_advice_planner/wizards/shipment_advice_planner.py:0
+msgid "Shipment Advice"
+msgstr "Рекомендація щодо відвантаження"
+
+#. module: shipment_advice_planner
+#: model:ir.model.fields.selection,name:shipment_advice_planner.selection__shipment_advice_planner__shipment_planning_method__simple
+msgid "Simple"
+msgstr "Простий"

@@ -43,3 +43,13 @@ msgstr "Назва"
 #: model:ir.model.fields,field_description:stock_depot.field_stock_depot__partner_id
 msgid "Partner"
 msgstr "Партнер"
+
+#. module: stock_depot
+#: model:ir.model.fields,field_description:stock_depot.field_stock_depot__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_depot
+#: model:ir.model.fields,field_description:stock_depot.field_stock_depot__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

@@ -18,3 +18,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_location_address.view_location_form
 msgid "Address"
 msgstr "Адреса"
+
+#. module: stock_location_address
+#: model:ir.model.fields,field_description:stock_location_address.field_stock_location__real_address_id
+msgid "Real Address"
+msgstr "Фактична адреса"
