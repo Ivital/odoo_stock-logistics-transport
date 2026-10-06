@@ -30,7 +30,7 @@ class TmsDriver(models.Model):
     is_active = fields.Boolean(default=True)
 
     # Driver - Relations
-    vehicles_ids = fields.One2many("fleet.vehicle", "driver_id")
+    vehicles_ids = fields.One2many("fleet.vehicle", "tms_driver_id")
     trips_ids = fields.One2many("tms.order", "driver_id")
 
     tms_team_id = fields.Many2one("tms.team")
