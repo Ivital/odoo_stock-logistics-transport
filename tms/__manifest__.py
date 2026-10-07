@@ -3,7 +3,7 @@
 {
     "name": "Transport",
     "summary": "Manage Vehicles, Drivers, Routes and Trips",
-    "version": "18.0.1.1.1",
+    "version": "18.0.1.1.2",
     "license": "AGPL-3",
     "category": "TMS",
     "author": "Open Source Integrators, Odoo Community Association (OCA)",

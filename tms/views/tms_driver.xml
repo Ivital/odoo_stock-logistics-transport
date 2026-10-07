@@ -16,15 +16,15 @@
         <field name="name">tms.driver.form.inherit</field>
         <field name="model">tms.driver</field>
         <field name="mode">primary</field>
-        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="inherit_id" ref="base.view_partner_simple_form" />
         <field name="arch" type="xml">
-            <xpath expr="//form/sheet" position="before">
+            <xpath expr="//form/*[1]" position="before">
                 <header>
                     <field
                         name="stage_id"
                         widget="statusbar"
                         domain="[('stage_type', '=', 'driver')]"
-                        options="{'clickable':True, 'fold_field':'fold'}"
+                        options="{'clickable': True, 'fold_field': 'fold'}"
                     />
                 </header>
             </xpath>
@@ -32,19 +32,32 @@
                 <attribute name="invisible">True</attribute>
             </xpath>
 
-            <xpath expr="//field[@name='type']" position="attributes">
-                <attribute name="invisible">True</attribute>
-            </xpath>
-
-            <xpath expr="//span[@name='address_name']" position="attributes">
-                <attribute name="invisible">False</attribute>
-            </xpath>
-
             <xpath expr="//field[@name='function']" position="attributes">
                 <attribute name="invisible">True</attribute>
             </xpath>
 
-            <xpath expr="//group" position="after">
+            <xpath expr="//form/group[1]" position="after">
+                <group string="Address">
+                    <group>
+                        <field name="street" placeholder="Street..." />
+                        <field name="street2" placeholder="Street 2..." />
+                        <field name="city" placeholder="City" />
+                    </group>
+                    <group>
+                        <field
+                            name="state_id"
+                            placeholder="State"
+                            options="{'no_open': True, 'no_quick_create': True}"
+                            context="{'country_id': country_id, 'default_country_id': country_id, 'zip': zip}"
+                        />
+                        <field name="zip" placeholder="ZIP" />
+                        <field
+                            name="country_id"
+                            placeholder="Country"
+                            options="{'no_open': True, 'no_create': True}"
+                        />
+                    </group>
+                </group>
                 <group>
                     <group string="Driver Status">
                         <field name="is_external" />
@@ -55,32 +68,32 @@
                         <field
                             name="driver_license_type"
                             string="Licence Type"
-                            invisible="not driver_type == 'terrestrial'"
+                            invisible="driver_type != 'terrestrial'"
                         />
                         <field
                             name="driver_license_number"
                             string="Licence No."
-                            invisible="not driver_type == 'terrestrial'"
+                            invisible="driver_type != 'terrestrial'"
                         />
                         <field
                             name="driver_license_expiration_date"
                             string="Licence Expiration Date"
-                            invisible="not driver_type == 'terrestrial'"
+                            invisible="driver_type != 'terrestrial'"
                         />
                         <field
                             name="driver_license_file"
                             string="License File"
-                            invisible="not driver_type == 'terrestrial'"
+                            invisible="driver_type != 'terrestrial'"
                         />
                     </group>
                     <group
                         string="Driver Experience"
-                        invisible="not driver_type == 'terrestrial'"
+                        invisible="driver_type != 'terrestrial'"
                     >
                         <label for="distance_traveled">Distance Traveled</label>
-                        <div class="d-flex w-25">
+                        <div class="d-flex">
                             <field name="distance_traveled" class="w-25" />
-                            <field name="distance_traveled_uom" class="w-50" />
+                            <field name="distance_traveled_uom" class="w-25" />
                         </div>
                         <field name="driving_experience_years" />
                     </group>
